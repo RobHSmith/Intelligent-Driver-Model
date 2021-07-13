@@ -19,4 +19,8 @@ The constructor for this class sets the timings of each traffic light.
 
 # Sim_Space_3
 This file contains the simulation of each vehicle as well as the Dynamics function which performs the forward Euler Integration.
-The output data from this function is written to a .csv titled motion.csv, though the file name can be changed.
+The output data from this function is written to a .csv titled motion.csv, though the file name can be changed. The traffic signals' yellow and red states are also
+printed to the .csv by printing the traffic lights position.
+
+# Plotting_Code
+This MATLAB file contains the code to read the data from motion.csv and plot it. The code provides plots for inter-vehicle gaps (excluding the first vehicle, which has an "infinite" gap in front of it), vehicle position (with traffic light yellow and red states), vehicle velocity, and command acceleration. 
