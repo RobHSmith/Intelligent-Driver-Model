@@ -4,6 +4,8 @@ A description of the IDM can be found at https://arxiv.org/pdf/0912.3613.pdf. Ea
 The model has been converted to an enhanced IDM (EIDM) by the addition of a comparison with the Constant Acceleration Heuristic (CAH) for the setting of the command acceleration.
 The EIDM is described in https://arxiv.org/pdf/0912.3613.pdf. The dynamics of the vehicles are controlled by a forward Euler integration using particle dynamics.
 
+Don't forget to update the .json tasks file to include the IDM and IDM_TL .cpp files.
+
 # IDM_def
 This file contains the definitions for constants and constant expressions (constexpr) used throughout the simulation files.
 
